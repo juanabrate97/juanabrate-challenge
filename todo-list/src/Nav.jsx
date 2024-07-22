@@ -20,7 +20,7 @@ export default function Nav() {
             isActive ? "b-nav_item-link m-active_link" : "b-nav_item-link"
           }
         >
-          My Tasks
+          Mis tareas
         </NavLink>
         <NavLink
           to="/devoluciones"
