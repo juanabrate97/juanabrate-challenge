@@ -7,10 +7,10 @@ Most of the logic is inside MyTasks component, which owns state and necessary me
 to it's children components, Task, NewTaskForm and AddTaskModal.
 
 Note:<br>
-    If the API used to retrieve tasks were real, the app wouldn't alter MyTasks "todos" state in any of it's methods. Instead, every method
+    # If the API used to retrieve tasks were real, the app wouldn't alter MyTasks "todos" state in any of it's methods. Instead, every method
     would call getTodos function to get the new data and refresh MyTasks component as the state changes. I added the fictional HTTP methods
     anyway.<br>
-    Form validation just checks that every field to add a task is populated. 
+    # Form validation just checks that every field to add a task is populated. 
  
 # React + Vite
 
