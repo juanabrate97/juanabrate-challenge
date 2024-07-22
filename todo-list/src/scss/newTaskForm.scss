@@ -1,0 +1,61 @@
+.b-new_task_form {
+  &-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  &-name_label,
+  &-description_label {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  &-name_input,
+  &-description_input {
+    width: 99%;
+    margin-bottom: 20px;
+    height: 30px;
+
+    &::placeholder {
+      padding-left: 10px;
+      font-size: 14px;
+    }
+
+    &.m-big_input {
+      height: 130px;
+    }
+
+    &.m-field_error {
+      border: 2px solid red;
+      background-color: #ffe6e6;
+    }
+  }
+
+  &-modal_footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  &-submit_btn,
+  &-close_btn {
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 40%;
+  }
+
+  &-submit_btn {
+    background-color: green;
+    color: white;
+  }
+
+  &-close_btn {
+    color: gray;
+  }
+}

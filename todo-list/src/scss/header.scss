@@ -1,0 +1,43 @@
+.b-header {
+  height: 62px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &_item-menu,
+  &_item-search,
+  &_item-logo,
+  &_item-user,
+  &_item-cart {
+    cursor: pointer;
+  }
+
+  &_item-menu {
+    height: 23px;
+    width: 26px;
+    background: url("../assets/menu.svg") no-repeat;
+  }
+
+  &_item-search {
+    height: 23px;
+    width: 23px;
+    background: url("../assets/search.svg") no-repeat;
+  }
+
+  &_item-logo {
+    height: 30px;
+    width: 187px;
+    background: url("../assets/logo.svg") no-repeat;
+  }
+
+  &_item-user {
+    height: 23px;
+    width: 23px;
+    background: url("../assets/login.svg") no-repeat;
+  }
+  &_item-cart {
+    height: 28px;
+    width: 35px;
+    background: url("../assets/cart.svg") no-repeat;
+  }
+}

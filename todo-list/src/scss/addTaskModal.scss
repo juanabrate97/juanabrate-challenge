@@ -1,0 +1,22 @@
+.b-add_task_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45vh);
+  background-color: #fff;
+  padding: 15px;
+  width: 80vw;
+  height: 50vh;
+  z-index: 1000;
+  border-radius: 5px;
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+}
